@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yohan Quinquis - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="style/main.css" rel="stylesheet">
+    <link href="style/contact.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="cursor"></div>
+
+<div id="menu-btn">
+    <div id="menu-btn-burger">
+
+    </div>
+</div>
+
+<div id="menu-btn-active"></div>
+
+<div id="menu">
+    <nav id="navMenu">
+        <a href="index.html" class="navLink"><span class="navSpan">Accueil</span></a>
+        <a href="projets.html" class="navLink"><span class="navSpan">Projets</span></a>
+        <a href="a-propos.html" class="navLink"><span class="navSpan">A propos</span></a>
+        <a href="#" class="navLink"><span class="navSpan">Contact</span></a>
+        <div id="cursorMenu"></div>
+    </nav>
+</div>
+
+<div id="contact-wrapper">
+    <div id="contact-title-wrapper">
+        <h1 id="contact-title">Contact</h1>
+    </div>
+    <div id="contact-wrapper-part-one">
+        <div class="contact-info">
+            <h1 class="contact-title-label">Adresse</h1>
+            <h1 class="contact-text">641 route d'Albertville</br>74320 Sevrier</h1>
+        </div>
+        <div class="contact-info">
+            <h1 class="contact-title-label">Email</h1>
+            <a class="mailTo" href="mailto:yohan_quinquis@icloud.com"><h1 class="contact-text">Yohan_quinquis@icloud.com</h1></a>
+        </div>
+        <div class="contact-info">
+            <h1 class="contact-title-label">Téléphone</h1>
+            <h1 class="contact-text">+33 06 09 45 42 81</h1>
+        </div>
+        <div class="contact-info">
+            <h1 class="contact-title-label">Réseaux Sociaux</h1>
+            <div id="contact-socialMedia-image">
+                <img src="image/behance.svg" class="contact-image" alt="behance">
+                <img src="image/instagram.svg" class="contact-image" alt="instagram">
+                <img src="image/linkedin.svg" class="contact-image" alt="linkedin">
+            </div>
+        </div>
+    </div>
+    <form id="contact-wrapper-part-two" method="post" action="https://formspree.io/f/mvodobag" accept-charset="utf-8">
+        <div>
+            <div id="contact-label-name-wrapper">
+                <h1 class="contact-title-label">Prénom</h1>
+                <h1 class="contact-title-label" id="contact-title-label-name">Nom</h1>
+            </div>
+            <div id="contact-wrapper-input-name">
+                <input type="text" name="firstName" class="contact-input-name" id="givenName" placeholder="Entrez votre prénom" autocomplete="given-name" required>
+                <input type="text" name="lastName" class="contact-input-name" id="familyName" placeholder="Entrez votre nom" autocomplete="family-name" required>
+            </div>
+        </div>
+        <div>
+            <div id="contact-label-email-wrapper">
+                <h1 class="contact-title-label">Email</h1>
+            </div>
+            <label>
+                <input type="email" name="email" id="contact-input-email" placeholder="Entrez votre mail" required>
+            </label>
+        </div>
+        <div>
+            <h1 class="contact-title-label">Texte</h1>
+            <label>
+                <textarea name="comment" id="contact-input-text" placeholder="Entrez votre message" required autocomplete="off"></textarea>
+            </label>
+        </div>
+        <button type="submit" class="contact-input-send contact-title-label">Envoyer un message</button>
+    </form>
+</div>
+
+<script src="./gsap/gsap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

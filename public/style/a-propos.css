@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*-----------------------------------------------A-Propos----------------------------------------------*/
+#a-propos-left-wrapper {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  height: 60vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#a-propos-title {
+  position: relative;
+  font-size: 5vw;
+  font-weight: bold;
+  font-family: Allerta stencil, serif;
+}
+
+#a-propos-paragraph {
+  font-size: 1.1vw;
+  font-family: Poppins, serif;
+  text-align: justify;
+}
+
+#a-propos-download-wrapper {
+  position: relative;
+  height: 5vh;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#a-propos-download-title {
+  display: flex;
+  font-size: 1.3vw;
+  font-weight: 400;
+  font-family: Poppins, serif;
+  align-items: center;
+}
+
+.download-image {
+  position: relative;
+  height: 80%;
+  object-fit: cover;
+  left: 1vw;
+  top: 0.5vh;
+}
+
+.a-propos-image {
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+#a-propos-right-wrapper {
+  position: absolute;
+  top: 15vh;
+  left: 50vw;
+  height: 70vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=a-propos.css.map */
