@@ -35,6 +35,7 @@ for (let i = 0; i < projectNumber; i++) {
     section.append(sectionLeftWrapper, sectionRightWrapper)
     sectionLeftWrapper.append(projectTitleWrapper, projectSubtitleWrapper, projectParagraphWrapper)
 
+
     const requestProjects = async () => {
         const locationApi = "https://portfolio-guilhem.herokuapp.com/"
         //const locationApi = "http://localhost:3000/"
@@ -46,12 +47,19 @@ for (let i = 0; i < projectNumber; i++) {
             datas.forEach(data => {
                 let verifProject = data.description.indexOf(`Project${i}`)
                 if (verifProject !== -1) {
-                    navigation.innerHTML = `<img src="${data.images.teaser}" alt="project" class="navigation-image ${i+1}">`
-                    sectionRightWrapper.innerHTML = `<img src="${data.images.normal}" alt="project" class="project-image">`
+                    navigation.innerHTML = `<img src="${data.images.normal}" alt="project" class="navigation-image ${i+1}">`
+                    sectionRightWrapper.innerHTML = `<img src="${data.images.hidpi}" alt="project" class="project-image">`
                     projectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
                     projectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
                     projectParagraphWrapper.innerHTML = `<h4 class="project-paragraph">${data.description}</h4>`
+
+                    if (data.title.length > 13) {
+                        projectTitleWrapper.style.lineHeight = "8vh"
+                        projectSubtitleWrapper.style.top = "2vh"
+                    }
+
                 }
+
             })
         } catch (err) {
             console.log(err)

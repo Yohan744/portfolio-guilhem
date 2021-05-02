@@ -7,6 +7,8 @@
 
 $firstColorWhite: rgb(255,255,255);
 $secondColorBlack: rgb(33,33,33);
+$lightBlue : #80BFBC;
+$blue : #098491;
 
 html, body {
   background-color: $firstColorWhite;
@@ -130,7 +132,7 @@ html, body {
   height: 7vh;
   width: 7vh;
   border-radius: 100vh;
-  background-color: green;
+  background-color: $lightBlue;
   transition: all 0.5s ease-in-out;
   z-index: 1;
 }
@@ -178,7 +180,7 @@ html, body {
 .navSpan {
   display: inline-block;
   position: relative;
-  font-family: como,sans-serif;
+  font-family: reross-quadratic, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 4vw;

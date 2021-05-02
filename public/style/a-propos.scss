@@ -12,12 +12,14 @@ body {
 
 $firstColorWhite: rgb(255,255,255);
 $secondColorBlack: rgb(33,33,33);
+$lightBlue : #80BFBC;
+$blue : #098491;
 
 /*-----------------------------------------------A-Propos----------------------------------------------*/
 
 #a-propos-left-wrapper {
   position: absolute;
-  top: 20vh;
+  top: 17.5vh;
   left: 10vw;
   height: 60vh;
   width: 35vw;
@@ -38,7 +40,18 @@ $secondColorBlack: rgb(33,33,33);
   font-size: 1.5vw;
   font-family: "Gill sans mt condensed", serif;
   font-weight: 300;
-  text-align: justify;
+  text-align: left;
+
+  :first-line {
+    background-color: transparent;
+    user-select: none;
+  }
+
+}
+
+#a-propos-a {
+  text-decoration: none;
+  color: $lightBlue;
 }
 
 #a-propos-download-wrapper {
@@ -80,4 +93,15 @@ $secondColorBlack: rgb(33,33,33);
   width: 40vw;
   display: flex;
   justify-content: center;
+}
+
+#software-wrapper {
+  position: absolute;
+  bottom: 5vh;
+  right: 2vw;
+  height: 5.5vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

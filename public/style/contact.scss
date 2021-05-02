@@ -217,7 +217,7 @@ $blue : #098491;
     left: 2.25%;
     height: 84%;
     width: 95%;
-    background: $firstColorWhite;
+    background-color: $firstColorWhite;
     border: none;
     border-radius: 10vh;
     outline: none;
@@ -225,7 +225,7 @@ $blue : #098491;
     font-family: Gill Sans mt Condensed, serif;
     color: #098491;
     transition: 0.6s;
-    z-index: 2;
+    z-index: 1;
 
     &:focus {
         outline: none;
@@ -233,7 +233,8 @@ $blue : #098491;
 
     &:hover {
         background-color: transparent;
-        transition: background-color 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        color: $firstColorWhite;
     }
 
 }
@@ -248,6 +249,3 @@ input:-webkit-autofill:active  {
     font-size: 1vw;
     background-color: $firstColorWhite;
 }
-
-//<label for="givenName" class="contact-title-label">Prénom</label>
-//<label for="familyName" class="contact-title-label">Nom</label>
