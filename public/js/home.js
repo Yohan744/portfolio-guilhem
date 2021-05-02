@@ -149,21 +149,21 @@ const requestProjects = async () => {
             if ((verifFirstProject !== -1) && (verifFirstProject < 30)) {
                 firstProjectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
                 firstProjectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
-                firstProjectImageWrapper.innerHTML += `<img src="${data.images.normal}" alt="image" class="project-image">`
+                firstProjectImageWrapper.innerHTML += `<img src="${data.images.hidpi}" alt="image" class="project-image">`
             }
 
             let verifSecondProject = data.description.indexOf("Project1")
             if ((verifSecondProject !== -1) && (verifSecondProject < 30)) {
                 secondProjectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
                 secondProjectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
-                secondProjectImageWrapper.innerHTML += `<img src="${data.images.normal}" alt="image" class="project-image">`
+                secondProjectImageWrapper.innerHTML += `<img src="${data.images.hidpi}" alt="image" class="project-image">`
             }
 
             let verifThirdProject = data.description.indexOf("Project2")
             if ((verifThirdProject !== -1) && (verifThirdProject < 30)) {
                 thirdProjectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
                 thirdProjectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
-                thirdProjectImageWrapper.innerHTML += `<img src="${data.images.normal}" alt="image" class="project-image">`
+                thirdProjectImageWrapper.innerHTML += `<img src="${data.images.hidpi}" alt="image" class="project-image">`
             }
         })
     } catch (err) {

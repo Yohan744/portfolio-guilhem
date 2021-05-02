@@ -29,13 +29,15 @@ $secondColorBlack: rgb(33,33,33);
 #a-propos-title {
   position: relative;
   font-size: 5vw;
-  font-weight: bold;
-  font-family: Allerta stencil, serif;
+  font-family: reross-quadratic, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 #a-propos-paragraph {
-  font-size: 1.1vw;
-  font-family: Poppins, serif;
+  font-size: 1.5vw;
+  font-family: "Gill sans mt condensed", serif;
+  font-weight: 300;
   text-align: justify;
 }
 

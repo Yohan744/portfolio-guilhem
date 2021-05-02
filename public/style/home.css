@@ -49,11 +49,12 @@ body {
 .navigation.active:after {
   position: absolute;
   width: 100%;
-  left: 50%;
+  left: 0;
   top: -5vh;
   content: attr(data-before);
-  font-family: Poppins, serif;
-  font-weight: bold;
+  font-family: reross-quadratic, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 2.25vw;
   transform: rotate(270deg);
   color: #212121;
@@ -148,7 +149,9 @@ body {
 
 .project-title {
   position: relative;
-  font-family: Poppins, serif;
+  font-family: reross-quadratic, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 3vw;
   display: flex;
   align-items: center;
@@ -171,10 +174,10 @@ body {
 
 #first-project-image-wrapper {
   position: absolute;
-  margin-top: 10vh;
-  margin-left: 10vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
   height: 60vh;
-  width: 30vw;
+  width: 40vw;
   overflow: hidden;
   background-size: cover;
   transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
@@ -221,10 +224,10 @@ body {
 
 #second-project-image-wrapper {
   position: absolute;
-  margin-top: 10vh;
-  margin-left: 10vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
   height: 60vh;
-  width: 30vw;
+  width: 40vw;
   overflow: hidden;
   background-size: cover;
   transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
@@ -264,10 +267,10 @@ body {
 
 #third-project-image-wrapper {
   position: absolute;
-  margin-top: 10vh;
-  margin-left: 10vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
   height: 60vh;
-  width: 30vw;
+  width: 40vw;
   overflow: hidden;
   background-size: cover;
   transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
