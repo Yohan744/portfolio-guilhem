@@ -128,6 +128,94 @@ body {
     opacity: 1;
   }
 }
+/*---------------------------------------------Welcome-------------------------------------------*/
+#logo-wrapper {
+  position: absolute;
+  top: 2vh;
+  left: 2.5vw;
+  height: 13vh;
+  width: 13vw;
+}
+
+#welcome-right-wrapper {
+  position: absolute;
+  top: 3vh;
+  right: -7vw;
+  height: 94vh;
+  width: 65vw;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+#welcome-left-wrapper {
+  position: absolute;
+  top: 25vh;
+  left: 10vw;
+  height: 50vh;
+  width: 40vw;
+}
+
+#welcome-left-title-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.welcome-left-title {
+  position: relative;
+  font-family: como, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5vw;
+  color: #098491;
+  text-transform: capitalize;
+}
+
+#welcome-left-subtitle-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.welcome-left-subtitle {
+  font-family: neuzeit-grotesk, sans-serif;
+  color: #80BFBC;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#welcome-left-paragraph-wrapper {
+  position: relative;
+  top: 5vh;
+  left: 0;
+  height: 15vh;
+  width: 100%;
+}
+
+.welcome-left-paragraph {
+  position: relative;
+  font-size: 1.7vw;
+  font-family: neuzeit-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #212121;
+}
+.welcome-left-paragraph:first-line {
+  background-color: transparent;
+  user-select: none;
+}
+
 /*---------------------------------------------Project-------------------------------------------*/
 #first-project-wrapper {
   position: absolute;
@@ -285,33 +373,68 @@ body {
 /*---------------------------------------------Projects------------------------------------------*/
 #projects-wrapper {
   position: absolute;
-  top: 12.5vh;
-  left: 27.5vw;
-  height: 70vh;
-  width: 50vw;
+  top: 7.5vh;
+  left: 17.5vw;
+  height: 85vh;
+  width: 65vw;
 }
 
-#projects-title-wrapper {
-  position: absolute;
-  margin-top: 8vh;
-  margin-left: 30vw;
-  height: 10vh;
+#button-send-wrapper {
+  position: relative;
+  left: 45vw;
+  height: 8vh;
+  width: 10vw;
+  border-radius: 10vh;
+  background: linear-gradient(20deg, #098491, #80BFBC);
+}
+
+#button-send {
+  position: relative;
+  top: 7%;
+  left: 2.25%;
+  height: 84%;
+  width: 95%;
+  background-color: white;
+  border: none;
+  border-radius: 10vh;
+  outline: none;
+  font-size: 2vw;
+  font-family: Gill Sans mt Condensed, serif;
+  color: #098491;
+  transition: 0.6s;
+  z-index: 1;
+}
+#button-send:focus {
+  outline: none;
+}
+#button-send:hover {
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+  color: white;
 }
 
 #info-contact {
   position: absolute;
   bottom: 0;
-  left: 0;
-  height: 5vh;
+  left: 5vw;
+  height: 10vh;
+  width: 90vw;
   display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .info-contact-text {
   position: relative;
-  font-family: Poppins, serif;
-  font-size: 1.3vw;
-  margin-left: 2vw;
+  font-family: Gill Sans mt Condensed, serif;
+  font-size: 1.75vw;
+  color: #098491;
+}
+
+.contact-image {
+  position: relative;
+  height: 40%;
 }
 
 /*--------------------------------------------Full Page------------------------------------------*/

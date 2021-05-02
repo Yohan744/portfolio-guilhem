@@ -136,6 +136,13 @@ const secondProjectSubtitleWrapper = document.getElementById('second-project-sub
 const thirdProjectTitleWrapper = document.getElementById('third-project-title-wrapper')
 const thirdProjectSubtitleWrapper = document.getElementById('third-project-subtitle-wrapper')
 
+const welcomeImageWrapper = document.getElementById('welcome-right-wrapper')
+const welcomeTitleWrapper = document.getElementById("welcome-left-title-wrapper")
+const welcomeSubtitleWrapper = document.getElementById("welcome-left-subtitle-wrapper")
+const welcomeParagraphWrapper = document.getElementById("welcome-left-paragraph-wrapper")
+
+const mesProjets = document.getElementById('projects-wrapper')
+
 const requestProjects = async () => {
     const locationApi = "https://portfolio-guilhem.herokuapp.com/"
     //const locationApi = "http://localhost:3000/"
@@ -165,6 +172,20 @@ const requestProjects = async () => {
                 thirdProjectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
                 thirdProjectImageWrapper.innerHTML += `<img src="${data.images.hidpi}" alt="image" class="project-image">`
             }
+
+            let verifWelcome = data.title.indexOf("Bienvenu !")
+            if ((verifWelcome !== -1) && (verifWelcome < 30)) {
+                welcomeImageWrapper.innerHTML = `<img src="${data.images.hidpi}" alt="welcome" class="image">`
+                welcomeTitleWrapper.innerHTML = `<h1 class="welcome-left-title">${data.tags}</h1>`
+                welcomeSubtitleWrapper.innerHTML = `<h1 class="welcome-left-subtitle">${data.title}</h1>`
+                welcomeParagraphWrapper.innerHTML = `<div class="welcome-left-paragraph">${data.description}</div>`
+            }
+
+            let verifProjects = data.description.indexOf("Projets")
+            if ((verifProjects !== -1) && (verifProjects < 30)) {
+                mesProjets.innerHTML += `<img src="${data.images.hidpi}" alt="project" class="image">`
+            }
+
         })
     } catch (err) {
         console.log(err)
