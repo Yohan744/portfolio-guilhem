@@ -56,9 +56,9 @@ body {
 
 #a-propos-download-title {
   display: flex;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   font-weight: 400;
-  font-family: Poppins, serif;
+  font-family: reross-quadratic, sans-serif;
   align-items: center;
 }
 
@@ -78,12 +78,25 @@ body {
 
 #a-propos-right-wrapper {
   position: absolute;
-  top: 15vh;
+  top: 8vh;
   left: 50vw;
-  height: 70vh;
-  width: 40vw;
+  height: 75vh;
+  width: 45vw;
   display: flex;
   justify-content: center;
+}
+
+#software-title-wrapper {
+  position: absolute;
+  top: 77.5vh;
+  left: 52.5vw;
+  height: 5vh;
+}
+
+.software-title {
+  font-size: 2vw;
+  font-family: reross-quadratic, sans-serif;
+  color: #80BFBC;
 }
 
 #software-wrapper {
