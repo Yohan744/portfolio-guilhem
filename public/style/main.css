@@ -84,7 +84,7 @@ html, body {
   height: 0.6vh;
   width: 2vw;
   border-radius: 10vh;
-  background-color: #212121;
+  background-color: #80BFBC;
   transition: all 0.5s ease-in-out;
 }
 
@@ -94,7 +94,7 @@ html, body {
   position: absolute;
   height: 0.6vh;
   width: 2vw;
-  background-color: #212121;
+  background-color: #80BFBC;
   border-radius: 10vh;
   transition: all 0.5s ease-in-out;
 }

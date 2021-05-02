@@ -63,7 +63,7 @@ $orange : #E2A50C;
 .project-left-wrapper {
   position: absolute;
   top: 21vh;
-  left: 10vw;
+  left: 12.5vw;
   height: 50vh;
   width: 35vw;
 }
@@ -125,9 +125,9 @@ $orange : #E2A50C;
 }
 
 .project-paragraph {
-  font-size: 1.4vw;
+  font-size: 1.5vw;
   font-family: Gill Sans mt Condensed, serif;
-  text-align: justify;
+  text-align: left;
 
   &:first-line {
     color: transparent;
