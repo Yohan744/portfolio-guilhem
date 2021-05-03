@@ -98,22 +98,23 @@ thirdProjectImageWrapper.addEventListener("mouseleave", () => {
 
 /*-------------------------------------------Parallax-------------------------------------------*/
 
-const firstProjectWrapper = document.getElementById('first-project-wrapper');
-let parallaxFirstProject = new Parallax(firstProjectWrapper, {
+
+const crystalWrapperOne = document.querySelector('#crystal-wrapper-one');
+let parallaxCrystalOne = new Parallax(crystalWrapperOne, {
     pointerEvents: true,
 })
 
 // Second Project
 
-const secondProjectWrapper = document.getElementById('second-project-wrapper');
-let parallaxSecondProject = new Parallax(secondProjectWrapper, {
+const crystalWrapperTwo = document.querySelector('#crystal-wrapper-two');
+let parallaxCrystalTwo = new Parallax(crystalWrapperTwo, {
     pointerEvents: true,
 })
 
 // Third Project
 
-const thirdProjectWrapper = document.getElementById('third-project-wrapper');
-let parallaxThirdProject = new Parallax(thirdProjectWrapper, {
+const crystalWrapperThird = document.querySelector('#crystal-wrapper-third');
+let parallaxCrystalThird = new Parallax(crystalWrapperThird, {
     pointerEvents: true,
 })
 
@@ -138,7 +139,6 @@ const thirdProjectSubtitleWrapper = document.getElementById('third-project-subti
 
 const welcomeImageWrapper = document.getElementById('welcome-right-wrapper')
 const welcomeTitleWrapper = document.getElementById("welcome-left-title-wrapper")
-const welcomeSubtitleWrapper = document.getElementById("welcome-left-subtitle-wrapper")
 const welcomeParagraphWrapper = document.getElementById("welcome-left-paragraph-wrapper")
 
 const mesProjets = document.getElementById('projects-wrapper')
@@ -176,8 +176,7 @@ const requestProjects = async () => {
             let verifWelcome = data.title.indexOf("Bienvenu !")
             if ((verifWelcome !== -1) && (verifWelcome < 30)) {
                 welcomeImageWrapper.innerHTML = `<img src="${data.images.hidpi}" alt="welcome" class="image">`
-                welcomeTitleWrapper.innerHTML = `<h1 class="welcome-left-title">${data.tags}</h1>`
-                welcomeSubtitleWrapper.innerHTML = `<h1 class="welcome-left-subtitle">${data.title}</h1>`
+                welcomeTitleWrapper.innerHTML = `<h1 class="welcome-left-title">${data.title}</h1>`
                 welcomeParagraphWrapper.innerHTML = `<div class="welcome-left-paragraph">${data.description}</div>`
             }
 
