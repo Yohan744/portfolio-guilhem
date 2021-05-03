@@ -47,6 +47,7 @@ for (let i = 0; i < projectNumber; i++) {
             datas.forEach(data => {
                 let verifProject = data.description.indexOf(`Project${i}`)
                 if (verifProject !== -1) {
+
                     navigation.innerHTML = `<img src="${data.images.normal}" alt="project" class="navigation-image ${i+1}">`
                     sectionRightWrapper.innerHTML = `<img src="${data.images.hidpi}" alt="project" class="project-image">`
                     projectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
@@ -55,7 +56,14 @@ for (let i = 0; i < projectNumber; i++) {
 
                     if (data.title.length > 13) {
                         projectTitleWrapper.style.lineHeight = "8vh"
-                        projectSubtitleWrapper.style.top = "2vh"
+                        projectTitleWrapper.style.top = "-2.5vh"
+                        projectSubtitleWrapper.style.top = "-2vh"
+                    }
+
+                    let verifYotis = data.title.indexOf(`yotis`)
+
+                    if (verifYotis !== -1) {
+                        projectSubtitleWrapper.style.top = "-2.8vh"
                     }
 
                 }

@@ -27,7 +27,7 @@ body {
   font-size: 5vw;
   font-family: reross-quadratic, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 #a-propos-paragraph {
@@ -52,19 +52,20 @@ body {
   width: auto;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #a-propos-download-title {
   display: flex;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: 400;
-  font-family: reross-quadratic, sans-serif;
+  font-family: "Gill sans mt condensed", serif;
   align-items: center;
 }
 
 .download-image {
   position: relative;
-  height: 80%;
+  height: 60%;
   object-fit: cover;
   left: 1vw;
   top: 0.5vh;
@@ -97,6 +98,7 @@ body {
   font-size: 2.5vw;
   font-family: reross-quadratic, sans-serif;
   color: #80BFBC;
+  font-weight: normal;
 }
 
 #software-arrow-wrapper {
@@ -115,7 +117,7 @@ body {
 #software-wrapper {
   position: absolute;
   bottom: 5vh;
-  right: 2vw;
+  right: 8.5vw;
   height: 6.5vh;
   width: 35vw;
   display: flex;

@@ -72,8 +72,8 @@ body {
 #contact-socialMedia-image {
   top: 1.2vh;
   position: relative;
-  height: 4vh;
-  width: 40%;
+  height: 3vh;
+  width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -123,7 +123,7 @@ body {
   height: 5vh;
   width: 18vw;
   border: none;
-  border-bottom: 0.4vh solid #80BFBC;
+  border-bottom: 0.6vh solid #80BFBC;
   outline: none;
   font-size: 1.3vw;
   font-family: Gill Sans mt Condensed, serif;
@@ -147,7 +147,7 @@ body {
   height: 5vh;
   width: 100%;
   border: none;
-  border-bottom: 0.4vh solid #80BFBC;
+  border-bottom: 0.6vh solid #80BFBC;
   outline: none;
   font-size: 1.3vw;
   font-family: Gill Sans mt Condensed, serif;
@@ -167,7 +167,7 @@ body {
   height: 15vh;
   width: 100%;
   border: none;
-  border-bottom: 0.4vh solid #80BFBC;
+  border-bottom: 0.6vh solid #80BFBC;
   outline: none;
   word-break: break-word;
   white-space: normal;
@@ -192,10 +192,10 @@ body {
 #contact-input-send-wrapper {
   position: relative;
   left: 24.15vw;
-  height: 8vh;
+  height: 6.5vh;
   width: 13.5vw;
   border-radius: 10vh;
-  background: linear-gradient(20deg, #098491, #80BFBC);
+  background: linear-gradient(100deg, #098491, #80BFBC);
 }
 
 .contact-input-send {

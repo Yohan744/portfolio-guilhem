@@ -96,16 +96,18 @@ $orange : #E2A50C;
   position: relative;
   font-size: 6vw;
   font-family: reross-quadratic, sans-serif;
+  font-weight: normal;
 }
 
 .project-subtitle-wrapper {
   position: relative;
-  top: -2vh;
+  top: -5vh;
   left: 0;
   height: 10vh;
   width: 100%;
   display: flex;
   align-items: center;
+  font-weight: normal;
 }
 
 .project-subtitle {
@@ -113,12 +115,12 @@ $orange : #E2A50C;
   font-size: 3vw;
   font-family: Gill Sans mt Condensed, serif;
   color: $orange;
-  font-weight: 800;
+  font-weight: normal;
 }
 
 .project-paragraph-wrapper {
   position: relative;
-  top: 0;
+  top: -3vh;
   left: 0;
   height: 30vh;
   width: 80%;

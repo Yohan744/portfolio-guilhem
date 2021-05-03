@@ -171,8 +171,8 @@ body {
 .welcome-left-title {
   position: relative;
   font-family: reross-quadratic, sans-serif;
-  font-weight: 700;
   font-style: normal;
+  font-weight: normal;
   font-size: 5vw;
   color: #212121;
   text-transform: capitalize;
@@ -180,7 +180,7 @@ body {
 
 #welcome-left-paragraph-wrapper {
   position: relative;
-  top: 5vh;
+  top: 3.5vh;
   left: 0;
   height: 15vh;
   width: 100%;
@@ -215,7 +215,7 @@ body {
   top: 5vh;
   left: 5vw;
   height: 10vh;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   align-items: center;
 }
@@ -224,15 +224,15 @@ body {
   position: relative;
   font-family: reross-quadratic, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 5vw;
+  font-weight: normal;
+  font-size: 5.5vw;
   display: flex;
   align-items: center;
 }
 
 #first-project-subtitle-wrapper {
   position: absolute;
-  top: 15vh;
+  top: 14vh;
   left: 5vw;
   height: 7vh;
   z-index: 1;
@@ -293,7 +293,7 @@ body {
 
 #second-project-subtitle-wrapper {
   position: absolute;
-  top: 15vh;
+  top: 14vh;
   left: -2.5vw;
   height: 7vh;
   z-index: 1;
@@ -334,7 +334,7 @@ body {
 
 #third-project-subtitle-wrapper {
   position: absolute;
-  top: 15vh;
+  top: 14vh;
   left: 2.5vw;
   height: 7vh;
   z-index: 1;
@@ -356,9 +356,9 @@ body {
 /*---------------------------------------------Projects------------------------------------------*/
 #projects-wrapper {
   position: absolute;
-  top: 7.5vh;
+  top: 0;
   left: 17.5vw;
-  height: 85vh;
+  height: 100vh;
   width: 65vw;
 }
 
@@ -368,15 +368,15 @@ body {
   height: 8vh;
   width: 10vw;
   border-radius: 10vh;
-  background: linear-gradient(20deg, #098491, #80BFBC);
+  background: linear-gradient(100deg, #098491, #80BFBC);
 }
 
 #button-send {
   position: relative;
-  top: 7%;
-  left: 2.25%;
+  top: 7.5%;
+  left: 2.75%;
   height: 84%;
-  width: 95%;
+  width: 94%;
   background-color: white;
   border: none;
   border-radius: 10vh;
@@ -419,82 +419,5 @@ body {
   position: relative;
   height: 40%;
 }
-
-/*--------------------------------------------Full Page------------------------------------------*/
-.text {
-  font-size: 2.8vh;
-  font-family: Poppins, serif;
-  color: white;
-}
-
-.presentationS1 {
-  position: absolute;
-  top: 27.5vh;
-  left: 10vw;
-  height: 45vh;
-  width: 30vw;
-  padding: 2vh;
-}
-
-.imgPresentationS1 {
-  position: absolute;
-  top: 20vh;
-  right: 12.5vw;
-  height: 60vh;
-  width: 40vw;
-  object-fit: cover;
-}
-
-/*#fp-nav ul li{
-  position: relative;
-  height: 14px;
-  width: 14px;
-  display: flex;
-  justify-content: space-between;
-}
-
-
-#fp-nav ul li a.active {
-  height: 100px;
-  width: 12px;
-  border-radius: 0;
-  background-color: #FFFFFF;
-}
-
-
-
-#fp-nav ul li a span {
-  border-radius: 50%;
-  z-index: 1;
-  height: 4px;
-  width: 4px;
-  border: 0;
-  display: flex;
-  flex-direction: row;
-  background: #333333;
-  left: 50%;
-  top: 50%;
-  margin: -2px 10px 0 -2px;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-}
-
-
-#fp-nav ul li span {
-  position: relative;
-  width: 14px;
-  height: 13px;
-  margin: 10px 0 10px 0;
-  justify-content: space-between;
-}
-
-#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span {
-  height: 50px;
-  width: 3px;
-  margin: -40px 0 0 -3px;
-  border-radius: 0;
-}*/
 
 /*# sourceMappingURL=home.css.map */
