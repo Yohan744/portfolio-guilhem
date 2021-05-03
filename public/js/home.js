@@ -157,6 +157,12 @@ const requestProjects = async () => {
                 firstProjectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
                 firstProjectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
                 firstProjectImageWrapper.innerHTML += `<img src="${data.images.hidpi}" alt="image" class="project-image">`
+
+                if (data.title.length > 12) {
+                    firstProjectTitleWrapper.style.left = "-2.5vw"
+                    firstProjectSubtitleWrapper.style.left = "-2.5vw"
+                }
+
             }
 
             let verifSecondProject = data.description.indexOf("Project1")
@@ -164,6 +170,11 @@ const requestProjects = async () => {
                 secondProjectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
                 secondProjectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
                 secondProjectImageWrapper.innerHTML += `<img src="${data.images.hidpi}" alt="image" class="project-image">`
+
+                if (data.title.length > 11) {
+                    secondProjectTitleWrapper.style.left = "-3vw"
+                    secondProjectSubtitleWrapper.style.left = "-3vw"
+                }
             }
 
             let verifThirdProject = data.description.indexOf("Project2")
@@ -171,6 +182,11 @@ const requestProjects = async () => {
                 thirdProjectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
                 thirdProjectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
                 thirdProjectImageWrapper.innerHTML += `<img src="${data.images.hidpi}" alt="image" class="project-image">`
+
+                if (data.title.length > 12) {
+                    thirdProjectTitleWrapper.style.left = "-2.5vw"
+                    thirdProjectSubtitleWrapper.style.left = "-2.5vw"
+                }
             }
 
             let verifWelcome = data.title.indexOf("Bienvenu !")

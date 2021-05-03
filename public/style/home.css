@@ -284,7 +284,7 @@ body {
 #second-project-title-wrapper {
   position: absolute;
   top: 5vh;
-  left: -2.5vw;
+  left: 5vw;
   height: 10vh;
   z-index: 1;
   display: flex;
@@ -294,7 +294,7 @@ body {
 #second-project-subtitle-wrapper {
   position: absolute;
   top: 14vh;
-  left: -2.5vw;
+  left: 5vw;
   height: 7vh;
   z-index: 1;
   display: flex;
