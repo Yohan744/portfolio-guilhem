@@ -132,7 +132,7 @@ html, body {
 }
 
 #menu-btn-active.active {
-  transform: scale(60);
+  transform: scale(65);
   transition: all 0.5s ease-in-out;
   z-index: 2;
 }
