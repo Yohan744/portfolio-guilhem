@@ -415,4 +415,14 @@ body {
   color: #098491;
 }
 
+a {
+  position: relative;
+  height: 70%;
+}
+
+.contact-image {
+  position: relative;
+  height: 70%;
+}
+
 /*# sourceMappingURL=home.css.map */
