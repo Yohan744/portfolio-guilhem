@@ -417,12 +417,12 @@ body {
 
 a {
   position: relative;
-  height: 70%;
+  height: 50%;
 }
 
 .contact-image {
   position: relative;
-  height: 70%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=home.css.map */
