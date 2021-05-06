@@ -16,6 +16,26 @@ $lightBlue : #80BFBC;
 $blue : #098491;
 $orange : #E2A50C;
 
+/*-----------------------------------------Loading screen----------------------------------------*/
+
+#loadingScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: $firstColorWhite;
+  z-index: 999;
+  transition: all 2s cubic-bezier(0.25, 1, 0.3, 1);
+}
+
+.loading-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /*---------------------------------------------Navigation-------------------------------------------*/
 
 #navigation-wrapper {

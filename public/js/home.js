@@ -15,6 +15,30 @@ new fullpage("#fullpage", {
     }
 })
 
+/*---------------------------------------Loading screen-----------------------------------------*/
+
+const loadingScreen = document.querySelector("#loadingScreen")
+let loadingVerif = false
+
+
+window.addEventListener("load", () => {
+    if (loadingVerif === false) {
+        loadingVerif = true
+        const cursor = document.querySelector("#cursor")
+        cursor.style.display = "none"
+        setTimeout(function() {
+            loadingScreen.style.left = "-100vw"
+            loadingScreen.style.transition = "all 1s"
+            cursor.style.display = "block"
+            setTimeout(function() {
+                loadingScreen.parentElement.removeChild(loadingScreen)
+            }, 1000);
+        }, 5500);
+    }
+})
+
+
+
 /*-------------------------------------------Navigation---------------------------------------------*/
 
 const navigationWrapper = document.querySelector("#navigation-wrapper")

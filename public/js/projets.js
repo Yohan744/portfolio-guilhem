@@ -48,7 +48,7 @@ for (let i = 0; i < projectNumber; i++) {
                 let verifProject = data.description.indexOf(`Project${i}`)
                 if (verifProject !== -1) {
 
-                    navigation.innerHTML = `<img src="${data.images.normal}" alt="project" class="navigation-image ${i+1}">`
+                    navigation.innerHTML = `<img src="${data.images.normal}" alt="project" class="navigation-image ${i + 1}">`
                     sectionRightWrapper.innerHTML = `<img src="${data.images.hidpi}" alt="project" class="project-image">`
                     projectTitleWrapper.innerHTML = `<h1 class="project-title">${data.title}</h1>`
                     projectSubtitleWrapper.innerHTML = `<h1 class="project-subtitle">${data.tags}</h1>`
@@ -64,6 +64,15 @@ for (let i = 0; i < projectNumber; i++) {
 
                     if (verifYotis !== -1) {
                         projectSubtitleWrapper.style.top = "-2.8vh"
+                    }
+
+                    if (i === 7) {
+                        projectParagraphWrapper.innerHTML += `
+                        <a href="../a-propos.html">
+                            <div id="about-button-wrapper">
+                                <button id="about-button">Apprendre à me connaitre</button>
+                            </div>
+                        </a>`
                     }
 
                 }
@@ -107,7 +116,7 @@ const changeSection = function () {
         }
 
         // Change section on click
-        navigationTarget.onclick = function (e){
+        navigationTarget.onclick = function (e) {
             fullpage_api.moveTo(e.target.className[17])
         }
     }
