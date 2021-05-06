@@ -204,8 +204,7 @@ body {
   height: 15vh;
   width: 100%;
 }
-
-.welcome-left-paragraph {
+#welcome-left-paragraph-wrapper p {
   position: relative;
   font-size: 1.9vw;
   font-family: Gill Sans mt Condensed, serif;
@@ -213,8 +212,8 @@ body {
   font-weight: 400;
   color: #212121;
 }
-.welcome-left-paragraph:first-line {
-  background-color: transparent;
+#welcome-left-paragraph-wrapper p:first-line {
+  color: transparent;
   user-select: none;
 }
 
@@ -392,10 +391,10 @@ body {
 
 #button-send {
   position: relative;
-  top: 8%;
-  left: 3%;
-  height: 84%;
-  width: 94%;
+  top: 0.6vh;
+  left: 0.25vw;
+  height: 6.9vh;
+  width: 9.5vw;
   background-color: white;
   border: none;
   border-radius: 10vh;

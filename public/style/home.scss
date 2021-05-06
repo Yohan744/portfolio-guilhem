@@ -219,19 +219,19 @@ $orange : #E2A50C;
   left: 0;
   height: 15vh;
   width: 100%;
-}
 
-.welcome-left-paragraph {
-  position: relative;
-  font-size: 1.9vw;
-  font-family: Gill Sans mt Condensed, serif;
-  font-style: normal;
-  font-weight: 400;
-  color: $secondColorBlack;
+  p {
+    position: relative;
+    font-size: 1.9vw;
+    font-family: Gill Sans mt Condensed, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: $secondColorBlack;
 
-  &:first-line {
-    background-color: transparent;
-    user-select: none;
+    &:first-line {
+      color: transparent;
+      user-select: none;
+    }
   }
 
 }
@@ -417,10 +417,10 @@ $orange : #E2A50C;
 
 #button-send {
   position: relative;
-  top: 8%;
-  left: 3%;
-  height: 84%;
-  width: 94%;
+  top: 0.6vh;
+  left: 0.25vw;
+  height: 6.9vh;
+  width: 9.5vw;
   background-color: $firstColorWhite;
   border: none;
   border-radius: 10vh;

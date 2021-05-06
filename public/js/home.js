@@ -213,11 +213,11 @@ const requestProjects = async () => {
                 }
             }
 
-            let verifWelcome = data.title.indexOf("bienvenue !")
+            let verifWelcome = data.description.indexOf("Welcome")
             if ((verifWelcome !== -1) && (verifWelcome < 30)) {
                 welcomeImageWrapper.innerHTML = `<img src="${data.images.hidpi}" alt="welcome" class="image">`
                 welcomeTitleWrapper.innerHTML = `<h1 class="welcome-left-title">${data.title}</h1>`
-                welcomeParagraphWrapper.innerHTML = `<div class="welcome-left-paragraph">${data.description}</div>`
+                welcomeParagraphWrapper.innerHTML = `${data.description}`
             }
 
             let verifProjects = data.description.indexOf("Projets")

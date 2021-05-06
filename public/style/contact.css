@@ -192,7 +192,7 @@ body {
 #contact-input-send-wrapper {
   position: relative;
   left: 24.15vw;
-  height: 6.5vh;
+  height: 6vh;
   width: 13.5vw;
   border-radius: 10vh;
   background: linear-gradient(100deg, #098491, #80BFBC);
@@ -200,10 +200,10 @@ body {
 
 .contact-input-send {
   position: relative;
-  top: 10%;
-  left: 2.25%;
-  height: 80%;
-  width: 95%;
+  top: 0.6vh;
+  left: 0.2vw;
+  height: 4.9vh;
+  width: 13.05vw;
   background-color: white;
   border: none;
   border-radius: 10vh;
