@@ -16,7 +16,7 @@ new fullpage("#fullpage", {
 })
 
 /*---------------------------------------Loading screen-----------------------------------------*/
-/*
+
 const loadingScreen = document.querySelector("#loadingScreen")
 let loadingVerif = false
 
@@ -36,7 +36,7 @@ window.addEventListener("load", () => {
         }, 5500);
     }
 })
-*/
+
 
 
 /*-------------------------------------------Navigation---------------------------------------------*/
