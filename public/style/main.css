@@ -14,14 +14,15 @@ html, body {
 #cursor {
   position: absolute;
   top: -5vh;
-  height: 1vw;
-  width: 1vw;
+  height: 1.5vw;
+  width: 1.5vw;
   pointer-events: none;
   z-index: 999;
   border-radius: 100%;
-  background-color: #212121;
+  border: 0.2vw solid #212121;
   transition: transform 0.3s ease;
   display: block;
+  transform: translate(-50%, -50%);
 }
 
 #cursor:before {
@@ -52,11 +53,12 @@ html, body {
   position: fixed;
   top: 47vh;
   left: 3vw;
-  height: 1vw;
-  width: 1vw;
+  height: 1.5vw;
+  width: 1.5vw;
   /*Couleur du curseur inversé !*/
-  background-color: white;
+  background-color: transparent;
   mix-blend-mode: difference;
+  border: 0.2vw solid white;
   border-radius: 50%;
   transition: transform 0.3s ease;
   pointer-events: none;
@@ -84,7 +86,7 @@ html, body {
   height: 0.6vh;
   width: 2vw;
   border-radius: 10vh;
-  background-color: #80BFBC;
+  background-color: #212121;
   transition: all 0.5s ease-in-out;
 }
 
@@ -94,7 +96,7 @@ html, body {
   position: absolute;
   height: 0.6vh;
   width: 2vw;
-  background-color: #80BFBC;
+  background-color: #212121;
   border-radius: 10vh;
   transition: all 0.5s ease-in-out;
 }
@@ -126,7 +128,7 @@ html, body {
   height: 7vh;
   width: 7vh;
   border-radius: 100vh;
-  background-color: #80BFBC;
+  background-color: #80bfbc;
   transition: all 0.5s ease-in-out;
   z-index: 1;
 }
@@ -158,7 +160,7 @@ html, body {
   width: 86%;
   margin: 0 auto;
   text-align: center;
-  top: 43%;
+  top: 45%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -183,7 +185,9 @@ html, body {
 }
 
 .navLink:hover ~ #cursorMenu {
-  transform: translate(-50%, -50%) scale(8);
+  transform: translate(-50%, -50%) scale(6);
+  background-color: white;
+  border: none;
 }
 
 /*@media(max-width: 900px) {
