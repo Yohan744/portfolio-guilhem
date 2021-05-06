@@ -234,4 +234,18 @@ input:-webkit-autofill:active {
   background-color: white;
 }
 
+#crystal-wrapper {
+  position: absolute;
+  bottom: -2vh;
+  left: 0;
+  height: 20vh;
+  width: 100vw;
+}
+
+.crystal-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
 /*# sourceMappingURL=contact.css.map */

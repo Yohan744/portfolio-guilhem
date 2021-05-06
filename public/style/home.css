@@ -194,7 +194,6 @@ body {
   font-weight: normal;
   font-size: 5vw;
   color: #212121;
-  text-transform: capitalize;
 }
 
 #welcome-left-paragraph-wrapper {
@@ -215,6 +214,14 @@ body {
 #welcome-left-paragraph-wrapper p:first-line {
   color: transparent;
   user-select: none;
+}
+
+#scroll-wrapper {
+  position: absolute;
+  bottom: 2vh;
+  right: 1.15vw;
+  height: 8vh;
+  width: 4vw;
 }
 
 /*---------------------------------------------Project-------------------------------------------*/
@@ -267,9 +274,9 @@ body {
 #first-project-image-wrapper {
   position: absolute;
   top: 0;
-  left: 10vw;
+  left: 12.5vw;
   height: 75vh;
-  width: 50vw;
+  width: 45vw;
   overflow: hidden;
   background-size: cover;
   transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
@@ -322,9 +329,9 @@ body {
 #second-project-image-wrapper {
   position: absolute;
   top: 0;
-  left: 10vw;
+  left: 12.5vw;
   height: 75vh;
-  width: 50vw;
+  width: 45vw;
   overflow: hidden;
   background-size: cover;
   transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
@@ -363,9 +370,9 @@ body {
 #third-project-image-wrapper {
   position: absolute;
   top: 0;
-  left: 10vw;
+  left: 12.5vw;
   height: 75vh;
-  width: 50vw;
+  width: 45vw;
   overflow: hidden;
   background-size: cover;
   transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);

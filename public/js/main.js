@@ -15,6 +15,8 @@ const cursorFunction = (function () {
 
 cursorFunction()
 
+
+
 /*----------------------------------------------Menu---------------------------------------------*/
 
 const menuBtn = document.querySelector('#menu-btn')
