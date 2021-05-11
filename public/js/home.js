@@ -17,20 +17,6 @@ new fullpage("#fullpage", {
 
 /*---------------------------------------Loading screen-----------------------------------------*/
 
-/*
-window.addEventListener("load", () => {
-    const cursor = document.querySelector("#cursor")
-    cursor.style.display = "none"
-    setTimeout(function () {
-        loadingScreen.style.left = "-100vw"
-        loadingScreen.style.transition = "all 1s"
-        cursor.style.display = "block"
-        setTimeout(function () {
-            loadingScreen.parentElement.removeChild(loadingScreen)
-        }, 1000);
-    }, 5500);
-})*/
-
 const loadingImage = document.querySelector(".loading-image")
 const loadingScreen = document.querySelector("#loadingScreen")
 let animPlay
@@ -61,7 +47,6 @@ if (animPlay === false) {
     loadingScreen.style.display = "none";
     loadingScreen.style.zIndex = "0";
 }
-
 
 /*-------------------------------------------Navigation---------------------------------------------*/
 
