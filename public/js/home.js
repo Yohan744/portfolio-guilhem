@@ -17,26 +17,50 @@ new fullpage("#fullpage", {
 
 /*---------------------------------------Loading screen-----------------------------------------*/
 
-const loadingScreen = document.querySelector("#loadingScreen")
-let loadingVerif = false
-
-
+/*
 window.addEventListener("load", () => {
-    if (loadingVerif === false) {
-        loadingVerif = true
-        const cursor = document.querySelector("#cursor")
-        cursor.style.display = "none"
-        setTimeout(function() {
-            loadingScreen.style.left = "-100vw"
-            loadingScreen.style.transition = "all 1s"
-            cursor.style.display = "block"
-            setTimeout(function() {
-                loadingScreen.parentElement.removeChild(loadingScreen)
-            }, 1000);
-        }, 5500);
-    }
-})
+    const cursor = document.querySelector("#cursor")
+    cursor.style.display = "none"
+    setTimeout(function () {
+        loadingScreen.style.left = "-100vw"
+        loadingScreen.style.transition = "all 1s"
+        cursor.style.display = "block"
+        setTimeout(function () {
+            loadingScreen.parentElement.removeChild(loadingScreen)
+        }, 1000);
+    }, 5500);
+})*/
 
+const loadingImage = document.querySelector(".loading-image")
+const loadingScreen = document.querySelector("#loadingScreen")
+let animPlay
+
+if (sessionStorage.getItem("animPlay") === null){
+    animPlay = false;
+} else {
+    animPlay = sessionStorage.getItem('animPlay');
+}
+
+if (animPlay === false) {
+    cursor.style.display = "none"
+    loadingImage.play();
+    animPlay = true;
+    sessionStorage.setItem('animPlay', animPlay);
+
+
+    loadingImage.addEventListener("ended", () => {
+        loadingScreen.style.left = "-100vw"
+        loadingScreen.style.transition = "all 1s"
+        setTimeout(function () {
+            loadingScreen.parentElement.removeChild(loadingScreen)
+            cursor.style.display = "block"
+        }, 1000);
+    })
+
+} else {
+    loadingScreen.style.display = "none";
+    loadingScreen.style.zIndex = "0";
+}
 
 
 /*-------------------------------------------Navigation---------------------------------------------*/
