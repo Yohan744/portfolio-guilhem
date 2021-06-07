@@ -206,7 +206,7 @@ body {
 #welcome-left-paragraph-wrapper p {
   position: relative;
   font-size: 1.9vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #212121;
@@ -266,7 +266,7 @@ body {
 }
 
 .project-subtitle {
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   font-size: 5vh;
   color: #E2A50C;
 }
@@ -407,7 +407,7 @@ body {
   border-radius: 10vh;
   outline: none;
   font-size: 2vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   color: #098491;
   transition: 0.6s;
   z-index: 1;
@@ -435,7 +435,7 @@ body {
 
 .info-contact-text {
   position: relative;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   font-size: 1.5vw;
   color: #098491;
 }

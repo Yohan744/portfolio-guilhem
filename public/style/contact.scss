@@ -63,7 +63,7 @@ $blue : #098491;
 .contact-title-label {
     font-size: 1.8vw;
     font-weight: bold;
-    font-family: Gill Sans mt Condensed, serif;
+    font-family: 'Voltaire', sans-serif;
     color: $secondColorBlack;
 }
 
@@ -71,7 +71,7 @@ $blue : #098491;
     position: relative;
     top: 1.2vh;
     font-size: 1.3vw;
-    font-family: Gill Sans mt Condensed, serif;
+    font-family: 'Voltaire', sans-serif;
     color: $lightBlue;
 }
 
@@ -132,17 +132,17 @@ $blue : #098491;
     border-bottom: 0.6vh solid $lightBlue;
     outline: none;
     font-size: 1.3vw;
-    font-family: Gill Sans mt Condensed, serif;
+    font-family: 'Voltaire', sans-serif;
 
     &::placeholder {
         font-size: 1.3vw;
-        font-family: Gill Sans mt Condensed, serif;
+        font-family: 'Voltaire', sans-serif;
     }
 
     &:focus {
         font-size: 1.3vw;
         color: #212121;
-        font-family: Gill Sans mt Condensed, serif;
+        font-family: 'Voltaire', sans-serif;
     }
 }
 
@@ -158,17 +158,17 @@ $blue : #098491;
     border-bottom: 0.6vh solid $lightBlue;
     outline: none;
     font-size: 1.3vw;
-    font-family: Gill Sans mt Condensed, serif;
+    font-family: 'Voltaire', sans-serif;
 
     &::placeholder {
         font-size: 1.3vw;
-        font-family: Gill Sans mt Condensed, serif;
+        font-family: 'Voltaire', sans-serif;
     }
 
     &:focus {
         font-size: 1.3vw;
         color: #212121;
-        font-family: Gill Sans mt Condensed, serif;
+        font-family: 'Voltaire', sans-serif;
     }
 }
 
@@ -184,17 +184,17 @@ $blue : #098491;
     resize: none;
     padding-top: 1.5vh;
     font-size: 1vw;
-    font-family: "Gill Sans MT Condensed", serif;
+    font-family: 'Voltaire', sans-serif;
 
     &::placeholder {
         font-size: 1vw;
-        font-family: Gill Sans mt Condensed, serif;
+        font-family: 'Voltaire', sans-serif;
     }
 
     &:focus {
         font-size: 1vw;
         color: #212121;
-        font-family: Gill Sans mt Condensed, serif;
+        font-family: 'Voltaire', sans-serif;
     }
 
     &::-webkit-scrollbar {
@@ -222,7 +222,7 @@ $blue : #098491;
     border-radius: 10vh;
     outline: none;
     font-size: 1.75vw;
-    font-family: Gill Sans mt Condensed, serif;
+    font-family: 'Voltaire', sans-serif;
     color: #098491;
     transition: 0.6s;
     z-index: 1;
@@ -245,7 +245,7 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active  {
     transition: background-color 5000s;
     -webkit-text-fill-color: $secondColorBlack !important;
-    font-family: Gill Sans mt Condensed, serif;
+    font-family: 'Voltaire', sans-serif;
     font-size: 1vw;
     background-color: $firstColorWhite;
 }

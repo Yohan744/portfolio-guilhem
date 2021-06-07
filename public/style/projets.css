@@ -103,7 +103,7 @@ body {
 .project-subtitle {
   position: relative;
   font-size: 3vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   color: #E2A50C;
   font-weight: normal;
 }
@@ -118,7 +118,7 @@ body {
 
 .project-paragraph {
   font-size: 1.5vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   text-align: left;
 }
 .project-paragraph:first-line {
@@ -147,7 +147,7 @@ body {
   border-radius: 10vh;
   outline: none;
   font-size: 1.75vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   color: #098491;
   transition: 0.6s;
   z-index: 1;

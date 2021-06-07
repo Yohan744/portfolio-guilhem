@@ -57,7 +57,7 @@ body {
 .contact-title-label {
   font-size: 1.8vw;
   font-weight: bold;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   color: #212121;
 }
 
@@ -65,7 +65,7 @@ body {
   position: relative;
   top: 1.2vh;
   font-size: 1.3vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   color: #80BFBC;
 }
 
@@ -126,16 +126,16 @@ body {
   border-bottom: 0.6vh solid #80BFBC;
   outline: none;
   font-size: 1.3vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
 }
 .contact-input-name::placeholder {
   font-size: 1.3vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
 }
 .contact-input-name:focus {
   font-size: 1.3vw;
   color: #212121;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
 }
 
 #contact-label-email-wrapper {
@@ -150,16 +150,16 @@ body {
   border-bottom: 0.6vh solid #80BFBC;
   outline: none;
   font-size: 1.3vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
 }
 #contact-input-email::placeholder {
   font-size: 1.3vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
 }
 #contact-input-email:focus {
   font-size: 1.3vw;
   color: #212121;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
 }
 
 #contact-input-text {
@@ -174,16 +174,16 @@ body {
   resize: none;
   padding-top: 1.5vh;
   font-size: 1vw;
-  font-family: "Gill Sans MT Condensed", serif;
+  font-family: "Voltaire", sans-serif;
 }
 #contact-input-text::placeholder {
   font-size: 1vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
 }
 #contact-input-text:focus {
   font-size: 1vw;
   color: #212121;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
 }
 #contact-input-text::-webkit-scrollbar {
   color: transparent;
@@ -209,7 +209,7 @@ body {
   border-radius: 10vh;
   outline: none;
   font-size: 1.75vw;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   color: #098491;
   transition: 0.6s;
   z-index: 1;
@@ -229,7 +229,7 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s;
   -webkit-text-fill-color: #212121 !important;
-  font-family: Gill Sans mt Condensed, serif;
+  font-family: "Voltaire", sans-serif;
   font-size: 1vw;
   background-color: white;
 }
