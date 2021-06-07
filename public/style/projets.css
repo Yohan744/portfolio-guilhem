@@ -131,7 +131,7 @@ body {
   top: 7.5vh;
   left: 0;
   height: 6vh;
-  width: 16vw;
+  width: 18vw;
   border-radius: 10vh;
   background: linear-gradient(100deg, #098491, #80BFBC);
 }
@@ -141,7 +141,7 @@ body {
   top: 0.5vh;
   left: 0.25vw;
   height: 4.9vh;
-  width: 15.5vw;
+  width: 17.5vw;
   background-color: white;
   border: none;
   border-radius: 10vh;
